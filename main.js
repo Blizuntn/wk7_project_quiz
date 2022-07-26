@@ -20,7 +20,7 @@ function displayQuestion(data) {
       i + 1
     }</strong></h4></label>
     <p>${questions[i]["question"]}</p>
-    <input type="text" class="form-control" id="answerInput" aria-describedby="emailHelp" placeholder="True or False">
+    <input type="text" class="form-control" id="answerInput" placeholder="True or False">
     </div>
 </form>
 <button type="submit" class="mt-2 mb-2 btn btn-primary btn-block">
